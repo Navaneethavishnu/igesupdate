@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/logo.jpg" type="image/png">
+    <title>IGES</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+	* {box-sizing: border-box}
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+  box-shadow: 0 8px 15px -6px #00FF25;
+    border-radius: 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  font-size: 20px;
+    color: white;
+    background: linear-gradient(to right, #00aee0 0%, #00FEA8 51%, #00aee0 100%);
+}
+
+/* Style the tab content */
+.tabcontent {
+	float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    box-shadow: 0 8px 15px -6px #00FF09;
+    border-radius: 10px;
+
+}
+	</style>
+</head>
+
+<body>
+
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+		<div class="header-top">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-sm-6 col-4 header-top-left">
+						<a href="tel:+9589865562">
+							<span class="lnr lnr-phone"></span>
+							<span class="text">
+								<span class="text">958 9865 562</span>
+							</span>
+						</a>
+						<a href="igesiitd@gmail.com">
+							<span class="lnr lnr-envelope"></span>
+							<span class="text">
+								<span class="text">igesiitd@gmail.com</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-8 header-top-right">
+						<a href="#" class="text-uppercase"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_menu">
+			<div class="search_input" id="search_input_box" style="display: none;">
+				<div class="container">
+					<form class="d-flex justify-content-between" method="" action="">
+						<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+						<button type="submit" class="btn"></button>
+						<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+					</form>
+				</div>
+			</div>
+
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html" style="
+    /* font-size: 22px; */
+    /* color: blue; */
+    padding: 10px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#ffff00, #00ff00 ,#6699ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+">
+IGES</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INITIATIVE</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="courses.html">Building Capacities</a></li>
+									<li class="nav-item"><a class="nav-link" href="elements.html">Creating Knowledge
+											Details</a></li>
+									<li class="nav-item"><a class="nav-link" href="course-details.html">Advocacy</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Encouraging Dialogues</a></li>
+								</ul>
+							</li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REsources</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="javascript:void(0)">Internal</a></li>
+									<li class="nav-item"><a class="nav-link" href="javascript:void(0)"></a>External
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+    <!--================ End Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="banner_content text-center">
+                            <h2 style="
+    background: -webkit-linear-gradient(#ffff00, #00ff00 ,#6699ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+">About Us</h2>
+                            <p>In the history of modern astronomy, there is probably no one greater leap forward than
+                                the
+                                building and launch of the space telescope known as the Hubble.</p>
+                            <div class="page_link">
+                                <a href="index.html">Home</a>
+                                <a href="about-us.html">About</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================ Start Department Area =================-->
+    <div class="department_area section_gap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center">
+                    <img class="img-fluid" src="img/s-bg.jpg" alt="">
+                </div>
+
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="dpmt_right">
+                        <h1>About us</h1>
+                        <p>As part of its larger mandate to develop human potential to its fullest, the IIT Delhi has launched an Initiative on Gender Equity and Sensitisation (IGES), on International Women’s Day - March 8, 2018. IGES aims to create and sustain a safe, inclusive and violence-free educational atmosphere in the Institute, which fosters growth and solidarity irrespective of sex, gender, caste, class, ethnicity, language, race, dis/ability and sexual orientation.
+</p>
+                        <p>IGES builds on the work conducted by Gender Awareness Committee instituted in IIT in 2015. The GAC has been conduction gender sensitisation workshops and awareness on sexual harassment at workplace sessions with students and staff.</p>
+                        
+                    </div>
+                </div>
+            </div>
+    <p style="
+    margin-top: 10px;
+">The IGES unit looks forward to your contribution in shaping this new body by taking initiative and interest around gender and diversity issues. The Institute has zero tolerance against sexual harassment, and a comprehensive policy has been formulated to confidentially act on any complaints.</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeyCshx6UbhShA2pYAqsoWbCesjy1Lpc3FfxtqQPz4M4gwZlA/viewform?usp=sf_link" target="blank" class="primary-btn text-uppercase">join...</a>
+        </div>
+    </div>
+    <!--================ End Department Area =================-->
+
+    <!--================ Start Instructor Area =================-->
+    
+    <!--================ End Instructor Area =================-->
+
+    <!--================ Start Department Area =================-->
+    
+    <!--================ End Department Area =================-->
+
+    <!--================ Start Fact Area =================-->
+    <div class="fact_area overlay">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="main_title">
+
+						<h2>IGES Mandate</h2>
+						<p>IGES was founded by Prof. G. Bhuvaneshwari, Prof. Amitabha Bagchi, Prof. Ravinder Kaur, Prof.
+							Sangeeta Kohli, Prof. Shalini Gupta and Prof. Sumeet Agarwal, with support from IITD
+							Director Prof. Ramagopal Rao.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- single features -->
+				<div class="col-lg-4 col-md-6">
+					<div class="single_fact">
+						<div class="f_icon">
+							<img src="img/f-icons/icon1.png" alt="">
+						</div>
+						<h4>Encouraging Gender Dialogues in the field of STEM</h4>
+						
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-4 col-md-6">
+					<div class="single_fact">
+						<div class="f_icon">
+							<img src="img/f-icons/icon2.png" alt="">
+						</div>
+						<h4>Advocating a zero-tolerance policy towards sexual harassment</h4>
+						
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-4 col-md-6">
+					<div class="single_fact">
+						<div class="f_icon">
+							<img src="img/f-icons/icon3.png" alt="">
+						</div>
+						<h4>Creating an equal, inclusive and gender-just educational environment</h4>
+						
+					</div>
+				</div>
+				<!-- single features -->
+				
+				<!-- single features -->
+				
+				<!-- single features -->
+				
+			</div>
+		</div>
+	</div>
+    <!--================ End Fact Area =================-->
+<div class="container" style="
+    margin-top: 30px;
+    margin-bottom: 31px;
+">
+    <h1 style="
+    text-align: center;
+">Our Team</h1>
+<p>	♠  IGES is an integral part of the IIT Delhi </p>
+<p> ♠ Its advised and led by selected members from the IITD body. Presently we have three committees under IGES</p>
+	<div class="tab">
+		<button class="tablinks active" onclick="openCity(event, 'London')" id="defaultOpen">Advisory Committee Members</button>
+		<button class="tablinks" onclick="openCity(event, 'Paris')">core executive committee</button>
+		<button class="tablinks" onclick="openCity(event, 'Tokyo')">Student Committee</button>
+	  </div>
+	  
+	  <div id="London" class="tabcontent" style="display: block;">
+		<h3>Advisory Committee Members</h3>
+		<p>	♠ Deputy Director Operations <br>	♠ Dean Student Welfare, Hostel Management, BRAC, <br>	♠  Internal Complaints Committee member <br>	♠ Faculty members <br>	♠ Student members – Gsec of all Boards <br>	♠ IGES Program Officer <br> 	♠ Special Invitees for different meetings</p>
+	  </div>
+	  
+	  <div id="Paris" class="tabcontent" style="display: none;">
+		<h3>core executive committee</h3>
+		<p>♠ Faculty members – Prof. Ravinder Kaur (Convenor), Prof. G. Bhuvaneshwari, Prof. Narayanan Kurur,, Prof. Shalini Gupta, Prof. Neetu Singh and Prof. Sumeet Agarwal.<br>
+								♠ Student Representatives – Sumallya Mukhopadhyay, Deepa Bhardwaj, Umesh Shahdadpuri and Neharika Singhal<br>
+								♠ IGES Program Officers – Anupriya Ghosh and Mridu Kamal <br>Founding Core Group - Prof. Ravinder Kaur (Convenor), Prof. G. Bhuvaneshwari, Prof. Sangeeta Kohli, Prof. Amitabha Bagchi, Prof. Shalini Gupta and Prof. Sumeet Agarwal.</p> 
+	  </div>
+	  
+	  <div id="Tokyo" class="tabcontent" style="display: none;">
+		<h3>Student Committee</h3>
+		<p>♠ UG and PG representatives from every IITD Board and Unit</p>
+	  </div>
+</div>
+    <!--================ Start Testimonial Area =================-->
+
+<div class="department_area section_gap" style="
+">
+    
+		<div class="container" style="
+">
+			<div class="row align-items-center">
+				<div class="col-lg-12">
+					<div class="dpmt_courses">
+						<div class="row" style="
+    margin-top: 50px;
+">
+							<!-- single course -->
+							<div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mt-100">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon1.png" alt="">
+									</div>
+									<h4>Empowerment</h4>
+								</div>
+							</div>
+							<!-- single course -->
+							<div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon2.png" alt="">
+									</div>
+									<h4>Gender equality</h4>
+								</div>
+							</div>
+							<!-- single course -->
+							<div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mt-100">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon3.png" alt="">
+									</div>
+									<h4>Courage</h4>
+								</div>
+							</div>
+							<!-- single course -->
+							<div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon4.png" alt="">
+									</div>
+									<h4>Knowledge</h4>
+								</div>
+							</div>
+							<!-- single course -->
+							<div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mt--100">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon5.png" alt="">
+									</div>
+									<h4>Ideas</h4>
+								</div>
+							</div>
+							<!-- single course -->
+							<div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon6.png" alt="">
+									</div>
+									<h4>Power</h4>
+								</div>
+							</div>
+							<!-- single course -->
+							<div class="offset-lg-4 col-lg-4 col-md-4 col-sm-6 col-12 text-center mt--100">
+								<div class="single_department">
+									<div class="dpmt_icon">
+										<img src="img/dpmt/icon7.png" alt="">
+									</div>
+									<h4>Creativity</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+    
+    <!--================ End Testimonial Area =================-->
+
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+		<div class="container">
+			<h2 style="
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+">Contact</h2>
+<div class="row">
+                Initiative on Gender Equity and Sensitisation<br>
+Room 155A, Block V, Ground Floor<br>
+Indian Institute of Technology Delhi Hauz Khas,<br>
+New Delhi – 110016
+    </div>
+			<div class="row footer-bottom d-flex justify-content-between">
+				<p class="col-lg-8 col-sm-12 footer-text m-0 text-white"> This
+					template is
+					made  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.barathv.com/"> BARATH V CONSULTANCY</a></p>
+				<div class="col-lg-4 col-sm-12 footer-social">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+					<a href="#"><i class="fa fa-behance"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!--================ End footer Area  =================-->
+	<script>
+		function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+		</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
